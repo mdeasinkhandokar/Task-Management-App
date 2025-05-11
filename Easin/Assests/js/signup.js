@@ -4,7 +4,7 @@ document.getElementById('signupForm').onsubmit = function(e) {
     var password = document.getElementById('signup-password').value;
     var confirm = document.getElementById('signup-confirm').value;
 
-    // Simple client-side validation
+    
     if (!username || !email || !password || !confirm) {
         alert('All fields are required.');
         e.preventDefault();
@@ -25,5 +25,5 @@ document.getElementById('signupForm').onsubmit = function(e) {
         e.preventDefault();
         return false;
     }
-    // You can add more checks as needed
+  
 };

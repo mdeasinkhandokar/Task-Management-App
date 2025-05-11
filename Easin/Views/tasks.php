@@ -9,7 +9,7 @@ include 'controller/session.php';
 </head>
 <body>
     <nav>
-        <!-- ... same as dashboard ... -->
+        
     </nav>
     <main>
         <h2>Tasks</h2>

@@ -8,7 +8,7 @@ $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
-    // Dummy check, replace with DB check
+   
     if ($username === 'admin' && $password === 'password') {
         $_SESSION['user_id'] = 1;
         header("Location: dashboard.php");
