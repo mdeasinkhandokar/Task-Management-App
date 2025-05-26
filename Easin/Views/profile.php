@@ -1,6 +1,6 @@
 <?php
 include 'controller/session.php';
-
+// Dummy user data for demonstration
 $user = [
     'username' => 'admin',
     'email' => 'admin@example.com',
@@ -15,7 +15,7 @@ $user = [
 </head>
 <body>
     <nav>
-        
+        <!-- ... same as dashboard ... -->
     </nav>
     <main>
         <h2>My Profile</h2>

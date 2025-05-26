@@ -9,7 +9,7 @@ include 'controller/session.php';
 </head>
 <body>
     <nav>
-       
+        <!-- ... existing code ... -->
     </nav>
     <main>
         <h2>Contact Us</h2>

@@ -52,6 +52,16 @@ include 'controller/session.php';
                 <div class="card-title">Contact</div>
                 <div class="card-desc">Contact support</div>
             </a>
+            <a href="upload.php" class="dashboard-card">
+                <div class="card-icon">📤</div>
+                <div class="card-title">File Upload</div>
+                <div class="card-desc">Upload and manage files</div>
+            </a>
+            <a href="premium.php" class="dashboard-card">
+                <div class="card-icon">⭐</div>
+                <div class="card-title">Premium Account</div>
+                <div class="card-desc">Upgrade your account</div>
+            </a>
             <a href="controller/logout.php" class="dashboard-card logout-card">
                 <div class="card-icon">🚪</div>
                 <div class="card-title">Logout</div>

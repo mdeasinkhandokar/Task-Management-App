@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'] ?? '';
     $confirm = $_POST['confirm'] ?? '';
 
-    
+    // Simple validation (expand as needed)
     if (!$username || !$email || !$password || !$confirm) {
         $error = 'All fields are required.';
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } elseif ($password !== $confirm) {
         $error = 'Passwords do not match.';
     } else {
-       
-        
+        // Here you would insert into DB, check for existing user, etc.
+        // For demo, just show success
         $success = 'Registration successful! You can now <a href="login.php">login</a>.';
     }
 }
